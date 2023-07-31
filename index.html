@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <style>
+        .container{
+            text-align: center;
+           color:white;
+             /* height:100vh;   */
+             }
+            #body{
+                background-image:  url(dictionary.jpeg);
+             background-position: center center center;
+             background-repeat: no-repeat;
+             background-size: contain;
+             background-attachment: fixed;
+             height: 100vh;
+            }     
+
+    </style>
+</head>
+<body>
+    <div id="body">
+        <div class="container">
+            <h1>Apni Dictionary</h1>
+            <div class="dictionaryContainer">
+                <div class="dictionaryInput">
+                    <input type="text" id="search">
+                </div>
+                <div class="dictionaryContent">
+                    <!-- <p id="word">Your Word</p> -->
+                    <p id="meaning">Meaning</p>
+                </div>
+            </div>
+        </div>
+        <script src="dictionary.js"></script>
+    </div>
+   
+</body>
+</html>
